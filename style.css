@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer__contents {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.timer__btns {
+  margin-top: 2rem;
+}
+.timer {
+  border: 2px solid;
+}
